@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 200px;
+    text-align: center;
+    width: 75%;
+    background-image: url(pexels-photo-1050304.jpeg);
+    
+}
+
+main {
+    margin-top: 10px;
+}
+
+.addEE {
+    padding: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+thead {
+    background-color: lightsteelblue;
+}
+
+.totalSal {
+    font-size: 22px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <header class="container">
+        <h1>Salary Calculator</h1>
+    </header>
+    <main>
+        <div class="container addEE">
+            <input id="firstNameEE" class="inputEE" type="text" placeholder="First Name"/>
+            <input id="lastNameEE" class="inputEE" type="text" placeholder="Last Name" />
+            <input id="identEE" class="inputEE" type="number" placeholder="Employee ID" />
+            <input id="titleEE" class="inputEE" type="text" placeholder="Title" />
+            <input id="salaryEE" class="inputEE" type="number" placeholder="Salary" />
+            <button id="submit" class="submitEE btn-secondary">Submit</button>
+        </div>
+        <div class="container">
+            <h3>Employees</h3>
+            <p>Click line to remove</p>
+            <table class="table-hover table tableEE">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Employee ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="empTable" class="bodyEETable">
+                </tbody>
+            </table>
+        </div>
+        <!-- <div class="resultsEE">
+            <ul class="results">
+                
+            </ul>
+        </div> -->
+        <div class="container totalSal">
+            <h4>Total Monthly Salary: $0</h4>
+        </div>
+    </main>
+    
+</body>
+</html>
